@@ -2,6 +2,8 @@
 
 A **machine learning project** that detects whether a given **news article or tweet is true or false**.  
 The model provides an **accuracy score with probability** and predicts the authenticity of the content.  
+👉 **[Live Demo](https://news-detector-keeezfkvaryoqeytnkiegp.streamlit.app/)**
+
 
 ---
 
@@ -36,12 +38,6 @@ This is an early version of the project. Features and accuracy may improve in fu
 
 ---
 
-## 📷 Screenshots  
-(Add your screenshots here – e.g., model training results, prediction examples)  
 
----
 
-## 📌 How to Use (Planned)  
-1. Clone the repo  
-   ```bash
-   git clone https://github.com/your-username/news-detector.git
+
