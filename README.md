@@ -1,43 +1,44 @@
-# 📰 News Detector – A Prediction  
+# 📰 Fake News Detector
 
-A **machine learning project** that detects whether a given **news article or tweet is true or false**.  
-The model provides an **accuracy score with probability** and predicts the authenticity of the content.  
-👉 **[Live Demo](https://news-detector-keeezfkvaryoqeytnkiegp.streamlit.app/)**
+This is my first **Machine Learning project** where I used **Google Colab** to build and train a model that can detect whether a news article is **Real or Fake**.  
 
-
----
-
-## ✨ Features  
-- ✅ Detects if a news article/tweet is **True or False**  
-- ✅ Provides a **probability score** for predictions  
-- ✅ Built using **Python, ML, NLP** techniques  
-- ✅ Dataset sourced from **Kaggle** (`true.csv` and `false.csv`)  
-- ✅ Implemented and tested in **Google Colab**  
+I mainly used concepts like **linear models, regression techniques, and classification** to get this working.  
+Finally, I deployed it on **Streamlit Cloud** so anyone can test it directly online 🚀  
 
 ---
 
-## 🛠️ Tech Stack  
+## 🔗 Live Demo
+👉 [Click here to try the app](https://news-detector-keeezfkvaryoqeytnkiegp.streamlit.app/)
+
+---
+
+## 📌 Features
+- Enter any news text (headline or paragraph).  
+- Model predicts **Real** ✅ or **Fake** ❌.  
+- Shows **confidence percentage** (probability).  
+- Clean and simple **Streamlit UI**.  
+
+---
+
+## ⚙️ Tech Stack
+- **Google Colab** (for training the model)  
 - **Python**  
-- **Natural Language Processing (NLP)**  
-- **Machine Learning**  
-- **Google Colab**  
-- **Kaggle Datasets**  
+- **Scikit-learn** (linear models, regression, classification)  
+- **Streamlit** (for deployment & frontend)  
 
 ---
 
-## 📊 Dataset  
-The model is trained using the **Kaggle Fake News Dataset**, which contains:  
-- `true.csv` → True news articles  
-- `false.csv` → Fake news articles  
+## 🚀 How I Trained the Model
+1. Used **TF-IDF vectorization** to convert news text into numbers.  
+2. Trained a **linear classification model** (logistic regression).  
+3. Saved both the **model** and **vectorizer** as `.pkl` files in Colab.  
+4. Created a `app.py` file to load them.  
+5. Deployed everything using **Streamlit Cloud**.  
 
 ---
 
-## 🚀 Project Status  
-🔧 **Currently in Development**  
-This is an early version of the project. Features and accuracy may improve in future updates.  
-
----
-
-
-
-
+## 🖥️ How to Run Locally
+Clone the repo and install requirements:
+```bash
+pip install -r requirements.txt
+streamlit run app.py
